@@ -28,11 +28,11 @@ const Item = ({ element }) => {
           {element.title}
         </Typography>
         <Typography variant="body2">{element.description}</Typography>
-        <Typography variant="body">${element.price}.-</Typography>
+        <Typography variant="body">${element.price}.</Typography>
       </CardContent>
       <CardActions>
         <Link to={`/itemDetail/${element.id}`} style={{textDecoration: "none", backgroundColor:"white"}}>
-        <Button variant="outlined">Ver detalle</Button>
+        <Button variant="outlined">Comprar</Button>
         </Link>
       </CardActions>
     </Card>

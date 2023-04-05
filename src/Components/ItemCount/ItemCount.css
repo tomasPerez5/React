@@ -1,0 +1,14 @@
+.container-btn {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .btns {
+    display: flex;
+    gap: 20px;
+    color: red;
+  }
+
